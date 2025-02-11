@@ -1,9 +1,15 @@
-#include <iostream>
-using namespace std;
+#include "util.h"
+#include <ctime>
+#define SIZE 10
 
 int main()
 {
-	cout << "Testing." << endl;
+	int array[SIZE];
+
+	srand(time(0));
+	random_init(array, SIZE, 0, 10);
+
+	cout << "Array: " << convert(array, SIZE) << endl;
 
 	return 0;
 }
