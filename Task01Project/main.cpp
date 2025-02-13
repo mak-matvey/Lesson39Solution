@@ -1,9 +1,9 @@
-#include "util.h"
+п»ї#include "util.h"
 #include "sort.h"
 #include <ctime>
 #define SIZE 10
 
-// Это комментарий
+// Р­С‚Рѕ РєРѕРјРјРµРЅС‚Р°СЂРёР№
 
 int main()
 {
