@@ -3,6 +3,8 @@
 #include <ctime>
 #define SIZE 10
 
+// Это комментарий
+
 int main()
 {
 	int array[SIZE];
