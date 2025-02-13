@@ -21,5 +21,19 @@ void bubble_sort(int* array, int size)
 			break;
 		}
 	}
+}
 
+void selected_sort(int* array, int size)
+{
+	for (int j = 0; j < size - 1; j++)
+	{
+		int index = j;
+		for (int i = j + 1; i < size; i++)
+		{
+			index = array[i] > j ? i : j;
+		}
+		int t = array[j];
+		array[j] = array[index];
+		array[index] = t;
+	}
 }
