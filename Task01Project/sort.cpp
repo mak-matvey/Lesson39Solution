@@ -3,7 +3,6 @@
 
 void bubble_sort(int* array, int size)
 {
-	int count = 0;
 	bool flag = true;
 	for (int j = 0; j < size - 1; j++)
 	{
@@ -16,7 +15,6 @@ void bubble_sort(int* array, int size)
 				array[i + 1] = t;
 				flag = false;
 			}
-			count++;
 		}
 		if (flag)
 		{
@@ -24,5 +22,4 @@ void bubble_sort(int* array, int size)
 		}
 	}
 
-	cout << "Count: " << count << endl;
 }
